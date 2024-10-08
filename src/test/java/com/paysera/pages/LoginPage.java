@@ -25,6 +25,8 @@ public class LoginPage {
     @FindBy(css = "div.alert.alert-danger")
     public WebElement errorAlert;
 
+    @FindBy(css = "div.alert.alert-danger")
+    public WebElement warningAlert;
 
 
 
