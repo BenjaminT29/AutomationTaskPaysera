@@ -20,7 +20,7 @@ public abstract class BasePage {
     public WebElement acceptCookies;
 
      @FindBy(xpath = "//button[.='Reject recommended settings']")
-    public WebElement rejecttCookies;
+    public WebElement rejectCookies;
 
 
 
