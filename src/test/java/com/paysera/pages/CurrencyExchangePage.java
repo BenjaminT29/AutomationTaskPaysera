@@ -37,6 +37,9 @@ public class CurrencyExchangePage extends BasePage{
     @FindBy(xpath = "//td[1]")
     public WebElement filteredCurrencyResult;
 
+    @FindBy(xpath = "//td[2]")
+    public WebElement filteredCurrencyAmount;
+
     public WebElement getInputBox(String boxName){
         WebElement inputBox = Driver.get().findElement(By.xpath("//label[.='" + boxName + "']/../input"));
         return inputBox;
